@@ -8,9 +8,9 @@ public class Calc {
             if (money >= threshold) { // можем ли отдыхать?
                 count++; // увеличиваем счётчик месяцев отдыха
                 money = money - expenses;
-                money = money/3;
+                money = money / 3;
             } else {
-                money = money+ (income - expenses);
+                money = money + (income - expenses);
             }
         }
         return count;
